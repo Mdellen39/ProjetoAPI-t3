@@ -14,4 +14,5 @@ export class GENERO{
 
     @OneToMany(()=> FILME, filme => filme.genero)
     filmes: FILME[];
+    series: any;
 }

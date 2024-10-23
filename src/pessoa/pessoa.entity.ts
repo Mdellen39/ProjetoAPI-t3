@@ -32,4 +32,5 @@ export class PESSOA {
         },
       })
     filmes?: FILME[];
+    series: any;
 }
